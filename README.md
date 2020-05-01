@@ -1,8 +1,8 @@
 # Outlier
 
-HTTP-to-SOCKS5 Proxy / GeoIP Filter
+HTTP-to-SOCKS Proxy / GeoIP Filter
 
-HTTP转SOCKS5代理 / GeoIP分流
+HTTP转SOCKS代理 / GeoIP分流
 
 ## 配置
 

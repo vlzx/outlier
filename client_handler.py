@@ -53,7 +53,6 @@ class ClientHandler(threading.Thread):
         except (OSError, ConnectionError, TimeoutError):
             self.client.close()
             server.close()
-            print('server connection failed.')
             return
 
         if method == 'CONNECT':
@@ -79,4 +78,3 @@ class ClientHandler(threading.Thread):
         finally:
             src.close()
             # dst.close()
-            print('copy complete.')
