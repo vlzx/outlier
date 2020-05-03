@@ -1,2 +1,5 @@
 /venv/
 /script.py
+/build/
+/dist/
+/main.spec
